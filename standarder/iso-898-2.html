@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISO 898-2 | Mekaniske egenskaber for møtrikker</title>
-    <meta name="description" content="ISO 898-2 beskriver mekaniske egenskaber for møtrikker i stål, herunder styrkeklasser, proof load og tekniske krav.">
+    <meta name="description" content="ISO 898-2 beskriver mekaniske og fysiske egenskaber for møtrikker i stål, herunder property classes, proof load, hårdhed og bolt/møtrik kombinationer.">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
             <a href="../index.html#standarder">Standarder</a>
             <a href="../index.html#teknik">Teknik</a>
             <a href="../index.html#materialer">Materialer</a>
+            <a href="../index.html#guides">Guides</a>
         </nav>
     </div>
 </header>
@@ -28,87 +29,307 @@
                 <span class="section-label">Standard</span>
                 <h1>ISO 898-2 – Mekaniske egenskaber for møtrikker</h1>
                 <p>
-                    ISO 898-2 fastlægger de mekaniske egenskaber for møtrikker fremstillet i stål.
-                    Standarden anvendes til at definere styrkeklasser, proof load og krav til hårdhed
-                    for møtrikker med metrisk gevind.
+                    ISO 898-2:2022 beskriver de mekaniske og fysiske egenskaber for møtrikker fremstillet
+                    i ulegeret eller legeret stål. Standarden bruges til at definere property classes,
+                    proof load, hårdhed og korrekt samspil mellem møtrik og bolt i metrisk gevind.
                 </p>
             </div>
 
-            <div class="card">
+            <article class="card content-block">
                 <h2>Hvad dækker ISO 898-2</h2>
                 <p>
-                    Standarden gælder for møtrikker med ISO metrisk gevind og omfatter både grov og fingevind.
-                    Den beskriver, hvordan møtrikker skal opføre sig under belastning, og sikrer at de kan
-                    anvendes sammen med bolte i tilsvarende styrkeklasser.
+                    Standarden gælder for møtrikker med ISO metrisk gevind, diameter/stigningskombinationer
+                    efter ISO 261 og ISO 262 samt gevindtolerancer efter ISO 965-serien.
+                    Den omfatter møtrikker med grov gevind fra M5 til M39 og fingevind fra M8×1 til M39×3.
                 </p>
-            </div>
-
-            <div class="card">
-                <h2>Styrkeklasser (Property classes)</h2>
                 <p>
-                    Møtrikker klassificeres i styrkeklasser, som angiver deres evne til at modstå belastning.
-                    De mest almindelige er:
+                    ISO 898-2 dækker tre møtriktyper:
                 </p>
                 <ul>
-                    <li>Klasse 5</li>
-                    <li>Klasse 6</li>
-                    <li>Klasse 8</li>
-                    <li>Klasse 10</li>
-                    <li>Klasse 12</li>
+                    <li><strong>Style 0</strong> – tynde møtrikker</li>
+                    <li><strong>Style 1</strong> – almindelige møtrikker</li>
+                    <li><strong>Style 2</strong> – høje møtrikker</li>
                 </ul>
-                <p>
-                    Valg af korrekt styrkeklasse er vigtigt for at sikre korrekt samspil med bolten.
-                </p>
-            </div>
+            </article>
 
-            <div class="card">
-                <h2>Proof load</h2>
+            <article class="card content-block">
+                <h2>Temperatur og anvendelsesområde</h2>
                 <p>
-                    Proof load er den belastning, som en møtrik skal kunne modstå uden permanent deformation.
-                    Dette er en central parameter i ISO 898-2 og bruges til at sikre korrekt funktion i samlinger.
+                    De mekaniske egenskaber er fastlagt ved prøvning i området 10 °C til 35 °C.
+                    Møtrikker efter denne standard anvendes typisk i drift fra ca. -50 °C til +150 °C,
+                    og i visse tilfælde højere, men uden garanti for at de specificerede egenskaber bevares
+                    ved afvigende temperaturer.
                 </p>
-            </div>
+            </article>
 
-            <div class="card">
-                <h2>Hårdhed</h2>
+            <article class="card content-block">
+                <h2>Property classes</h2>
                 <p>
-                    Standarden fastsætter krav til hårdhed for de enkelte styrkeklasser.
-                    Hårdheden er afgørende for møtrikkens styrke og modstand mod deformation.
+                    ISO 898-2 arbejder med følgende property classes:
                 </p>
-            </div>
 
-            <div class="card">
-                <h2>Sammenhæng mellem bolt og møtrik</h2>
-                <p>
-                    For at opnå korrekt funktion skal møtrikkens styrkeklasse passe til bolten.
-                    En møtrik med for lav styrke kan føre til svigt i samlingen, mens en for høj
-                    styrkeklasse kan give unødvendig kompleksitet.
-                </p>
-            </div>
+                <div class="table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Property class</th>
+                                <th>Typisk møtriktype</th>
+                                <th>Bemærkning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>04</td>
+                                <td>Tynd møtrik (style 0)</td>
+                                <td>Lav belastning</td>
+                            </tr>
+                            <tr>
+                                <td>05</td>
+                                <td>Tynd møtrik (style 0)</td>
+                                <td>Lav belastning</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Almindelig møtrik (style 1)</td>
+                                <td>Lavere styrkeniveau</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Almindelig møtrik (style 1)</td>
+                                <td>Standard mekanisk niveau</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Style 1 / style 2</td>
+                                <td>Meget udbredt klasse</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Style 1 / style 2</td>
+                                <td>Høj styrke</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Style 1 / style 2</td>
+                                <td>Meget høj styrke</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
 
-            <div class="card">
-                <h2>Temperaturområde</h2>
+            <article class="card content-block">
+                <h2>Bolt og møtrik kombinationer</h2>
                 <p>
-                    ISO 898-2 er baseret på test ved temperaturer mellem ca. 10 °C og 35 °C.
-                    Ved højere eller lavere temperaturer kan egenskaberne afvige.
+                    En vigtig del af ISO 898-2 er sammenhængen mellem møtrikkens property class
+                    og den maksimale property class for den bolt, den skal arbejde sammen med.
                 </p>
-            </div>
 
-            <div class="card">
-                <h2>Anvendelse</h2>
-                <p>
-                    ISO 898-2 anvendes bredt inden for maskinindustri, konstruktion og montage,
-                    hvor det er nødvendigt at sikre pålidelige og dokumenterede mekaniske egenskaber.
-                </p>
-            </div>
+                <div class="table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Møtrik property class</th>
+                                <th>Maks. bolt property class</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td>5.8</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>6.8</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>8.8</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>10.9</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>12.9</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
 
-            <div class="card">
-                <h2>Relaterede produkter</h2>
+            <article class="card content-block">
+                <h2>Proof load – hvad betyder det</h2>
                 <p>
-                    Se udvalg af møtrikker og bolte hos bolte.dk, hvor produkterne leveres
-                    i henhold til gældende standarder og specifikationer.
+                    Proof load er den belastning, møtrikken skal kunne optage uden at miste sin funktion.
+                    Det er en af de vigtigste værdier i ISO 898-2, fordi den viser, hvor stor aksial belastning
+                    møtrikken kan klare sammen med en passende bolt.
                 </p>
-            </div>
+                <p>
+                    Jo højere property class, desto højere proof load vil man typisk se for samme gevinddimension.
+                </p>
+            </article>
+
+            <article class="card content-block">
+                <h2>Eksempel på proof load-værdier for grov gevind</h2>
+                <p>
+                    Tabellen nedenfor viser udvalgte eksempelværdier i Newton for grov gevind.
+                    Den er velegnet som teknisk reference og giver et hurtigt overblik over forskellen
+                    mellem de mest relevante property classes.
+                </p>
+
+                <div class="table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Gevind</th>
+                                <th>Stigning</th>
+                                <th>Kl. 5</th>
+                                <th>Kl. 6</th>
+                                <th>Kl. 8</th>
+                                <th>Kl. 10</th>
+                                <th>Kl. 12</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>M6</td>
+                                <td>1.0</td>
+                                <td>11700 N</td>
+                                <td>13500 N</td>
+                                <td>17200 N</td>
+                                <td>20900 N</td>
+                                <td>23100 N</td>
+                            </tr>
+                            <tr>
+                                <td>M8</td>
+                                <td>1.25</td>
+                                <td>21600 N</td>
+                                <td>24900 N</td>
+                                <td>31800 N</td>
+                                <td>38100 N</td>
+                                <td>42500 N</td>
+                            </tr>
+                            <tr>
+                                <td>M10</td>
+                                <td>1.5</td>
+                                <td>34200 N</td>
+                                <td>39400 N</td>
+                                <td>50500 N</td>
+                                <td>60300 N</td>
+                                <td>67300 N</td>
+                            </tr>
+                            <tr>
+                                <td>M12</td>
+                                <td>1.75</td>
+                                <td>51400 N</td>
+                                <td>59000 N</td>
+                                <td>74200 N</td>
+                                <td>88500 N</td>
+                                <td>100300 N</td>
+                            </tr>
+                            <tr>
+                                <td>M16</td>
+                                <td>2.0</td>
+                                <td>95800 N</td>
+                                <td>109900 N</td>
+                                <td>138200 N</td>
+                                <td>164900 N</td>
+                                <td>186800 N</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="table-note">
+                    Bemærk: tynde møtrikker har lavere stripping load end en fuldt belastbar møtrik.
+                </p>
+            </article>
+
+            <article class="card content-block">
+                <h2>Hårdhed – forenklet oversigt</h2>
+                <p>
+                    Hårdhedskravene varierer efter property class og dimension. For almindelige møtrikker
+                    i området M5 til M16 ses typisk følgende niveauer som teknisk reference:
+                </p>
+
+                <div class="table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Property class</th>
+                                <th>Vickers hårdhed (HV)</th>
+                                <th>Rockwell (HRC)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td>130 – 302 HV</td>
+                                <td>maks. 30</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>150 – 302 HV</td>
+                                <td>maks. 30</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>200 – 302 HV</td>
+                                <td>maks. 30</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>272 – 353 HV</td>
+                                <td>26 – 36</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>295 – 353 HV</td>
+                                <td>29 – 36</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article class="card content-block">
+                <h2>Hvad standarden ikke dækker</h2>
+                <p>
+                    ISO 898-2 beskriver mekaniske og fysiske egenskaber, men ikke alle funktionelle forhold.
+                    Standarden bruges derfor sammen med andre standarder og krav, når applikationen kræver mere end
+                    blot styrke og proof load.
+                </p>
+                <ul>
+                    <li>Korrosionsbestandighed</li>
+                    <li>Prevailing torque-funktion</li>
+                    <li>Torque/clamp force-forhold</li>
+                    <li>Svejsbarhed</li>
+                </ul>
+            </article>
+
+            <article class="card content-block">
+                <h2>Praktisk betydning</h2>
+                <p>
+                    ISO 898-2 er særlig vigtig, når man vælger møtrikker til bærende eller mekanisk belastede
+                    samlinger. I praksis bruges standarden til at sikre, at møtrik og bolt passer sammen både
+                    geometrisk og mekanisk.
+                </p>
+                <p>
+                    På standardsider for almindelige sekskantmøtrikker vil ISO 898-2 ofte være den standard,
+                    der beskriver den mekaniske del af møtrikken.
+                </p>
+            </article>
+
+            <article class="card content-block">
+                <h2>Relaterede sider</h2>
+                <ul>
+                    <li><a href="din-934.html">DIN 934 / ISO 4032 – Sekskantmøtrik</a></li>
+                    <li><a href="#">DIN 985 – Låsemøtrik</a></li>
+                    <li><a href="#">Materialer og overflader</a></li>
+                </ul>
+            </article>
 
         </div>
     </section>
@@ -116,7 +337,7 @@
 
 <footer class="site-footer">
     <div class="container footer-inner">
-        <p>© Møtrikker.dk – Teknisk information om møtrikker</p>
+        <p>© Møtrikker.dk – Teknisk information om møtrikker, standarder og data</p>
     </div>
 </footer>
 
